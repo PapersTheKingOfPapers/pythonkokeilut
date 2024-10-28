@@ -24,3 +24,9 @@ degs = [30, 45, 60, 90, 120, 135, 150, 180, 270, 360]
 print("---")
 for i in degs:
   print(f"{i} Degrees = {np.radians(i)} radians")
+
+#Tehtava 2.3.3: 2.
+v = (950 * 1000) / 3600
+dist = v * 45
+h = dist * math.tan(35)
+print(f"Hypotenouse of the triangle is {np.hypot(h, dist)} meters")
